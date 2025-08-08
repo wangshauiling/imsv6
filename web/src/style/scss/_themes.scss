@@ -1,0 +1,14 @@
+@import './themes/orange.scss';
+@import './themes/blue.scss';
+@import './themes/small.scss';
+@import './themes/middle.scss';
+@import './themes/big.scss';
+$themes:(
+    orange:$orange,
+    blue:$blue,
+    small:$small,
+    middle:$middle,
+    big:$big,
+)
+
+

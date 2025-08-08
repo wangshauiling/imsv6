@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import './middle_var.scss';
+$middle:(    
+    font-size:$middle-font-size,
+    font-size-14:$middle-font-size-16,
+    font-size-20:$middle-font-size-22,
+    font-size-26:$middle-font-size-28,
+    font-size-28:$middle-font-size-30,
+    font-icon-size:$middle-ico-font-size,
+    font-title-size:$middle-font-title-size,
+    treeview-search:$middle-treeview-search,
+    tab-height:$middle-tab-height,
+    content-height:$middle-content-height,
+    main-content-height:$middle-main-content-height,
+    dx-tab-margin-top:$middle-dx-tab-margin-top
+)

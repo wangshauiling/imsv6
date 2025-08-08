@@ -1,0 +1,54 @@
+{
+    "Name": "default",
+    "Width": "2pt",
+    "Layers": [
+        {
+            "Name": "default"
+        }
+    ],
+    "CustomProperties": [
+        {
+            "Name": "DisplayType",
+            "Value": "Page"
+        },
+        {
+            "Name": "SizeType",
+            "Value": "Default"
+        },
+        {
+            "Name": "PaperOrientation",
+            "Value": "Portrait"
+        }
+    ],
+    "Page": {
+        "PageWidth": "8.5in",
+        "PageHeight": "11in",
+        "RightMargin": "0in",
+        "LeftMargin": "0in",
+        "TopMargin": "0in",
+        "BottomMargin": "0in",
+        "Columns": 1,
+        "ColumnSpacing": "0.5in"
+    },
+    "ReportSections": [
+        {
+            "Type": "Continuous",
+            "Name": "ContinuousSection1",
+            "Page": {
+                "PageWidth": "21cm",
+                "PageHeight": "29.7cm",
+                "RightMargin": "2.5cm",
+                "LeftMargin": "2.5cm",
+                "TopMargin": "2.5cm",
+                "BottomMargin": "2.5cm",
+                "Columns": 1,
+                "ColumnSpacing": "0.5in"
+            },
+            "Width": "2.5cm",
+            "Body": {
+                "Height": "0.75cm",
+                "ReportItems": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+@import './scss/_themes.scss';
+
+$theme-map:$orange;
+// 遍历主体map
+@mixin themeify {
+    @each $theme-name,$theme-map in $themes {
+        // !global 把局部变量升强为全局变量
+        $theme-map:$theme-map !global;
+
+        [data-theme='#{"" + $theme-name}'] & {
+            @content;
+        }
+
+    }
+}
+
+@mixin fontify {
+    @each $theme-name,$theme-map in $themes {
+        // !global 把局部变量升强为全局变量
+        $theme-map:$theme-map !global;
+
+        [data-font='#{"" + $theme-name}'] & {
+            @content;
+        }
+
+    }
+}
+
+@function themed($key) {
+    @return map-get($theme-map, $key)
+}
+
+@mixin get_class($className, $key) {
+    @include themeify {
+        #{$className}:themed($key) !important;
+    }
+}
+
+@mixin get_font_class($className, $key) {
+    @include fontify {
+        #{$className}:themed($key) !important;
+    }
+}
+
+@import './reset.scss';

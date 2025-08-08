@@ -1,0 +1,9 @@
+@import './blue_var.scss';
+@import './orange_var.scss';
+
+:export {
+    orangeThemeColor:$orange-theme-color;
+    orangeThemeHcolor:$orange-theme-hcolor;
+    blueThemeColor:$blue-theme-color;
+    blueThemeHcolor:$blue-theme-hcolor;
+}

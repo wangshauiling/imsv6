@@ -1,0 +1,39 @@
+{
+    "zh": {
+        "dxDiagram-commandPageOrientation": "纸张方向",
+        "dxDiagram-commandPageOrientationLandscape": "横向",
+        "dxDiagram-commandPageOrientationPortrait": "纵向",
+
+        "dxDiagram-commandCut": "剪切",
+        "dxDiagram-commandCopy": "复制",
+        "dxDiagram-commandPaste": "粘贴",
+        "dxDiagram-commandSelectAll": "全选",
+        "dxDiagram-commandDelete": "删除",
+        "dxDiagram-commandLock": "锁定",
+        "dxDiagram-commandUnlock": "解锁",
+        "dxDiagram-commandBringToFront": "移到前面",
+        "dxDiagram-commandFullscreen": "全屏",
+        "dxDiagram-commandExportToSvg": "导出SVG",
+        "dxDiagram-commandExportToPng": "导出PNG",
+        "dxDiagram-commandExportToJpg": "导出JPEG",
+        "dxDiagram-commandZoomLevel": "缩放级别",
+        "dxDiagram-commandAutoZoom": "自动缩放",
+        "dxDiagram-commandFitToContent": "适合内容",
+        "dxDiagram-commandFitToWidth": "适合宽度",
+        "dxDiagram-commandAutoZoomByContent": "按内容自动缩放",
+        "dxDiagram-commandAutoZoomByWidth": "按宽度自动缩放",
+
+        "dxDiagram-commandLayoutLeftToRight": "从左到右",
+        "dxDiagram-commandLayoutRightToLeft": "从右到左",
+        "dxDiagram-commandLayoutTopToBottom": "从上到下",
+        "dxDiagram-commandLayoutBottomToTop": "从下到上",
+
+        "dxDiagram-unitIn": "in",
+        "dxDiagram-unitCm": "cm",
+        "dxDiagram-unitPx": "px",
+        
+        "dxDiagram-uiSearch": "搜索",
+
+        "dxDataGrid-headerFilterOK":"确定"
+    }
+}

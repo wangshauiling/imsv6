@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import './blue_var.scss';
+$blue:(    
+    theme-color:$blue-theme-color,
+    theme-hcolor:$blue-theme-hcolor,
+    success-color:$blue-success-color,
+    success-bcolor:$blue-success-bcolor,
+    warning-color:$blue-warning-color,
+    warning-bcolor:$blue-warning-bcolor,
+    default-color:$blue-default-color,
+    default-bcolor:$blue-default-bcolor,
+    danger-color:$blue-danger-color,
+    danger-bcolor:$blue-danger-bcolor,
+    bar-color:$blue-bar-color,
+    treeviewbox-color:$blue-treeviewbox-color,
+    sideNav-bgcolor:$blue-sideNav-bgcolor,
+    search-editor-bgcolor:$blue-search-editor-bgcolor,
+    search-editor-color:$blue-search-editor-color,
+    treeview-hcolor:$blue-treeview-hcolor,
+    treeview-hbgcolor:$blue-treeview-hbgcolor,
+    mainBox-margin-left:$blue-mainBox-margin-left,
+    mainBox-width:$blue-mainBox-width,
+);

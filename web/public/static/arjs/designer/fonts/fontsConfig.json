@@ -1,0 +1,23 @@
+{
+    "path": "./public",
+    "descriptors": [
+        {
+            "name": "Arial"
+        },
+        {
+            "name": "宋体"
+        },
+        {
+            "name": "幼圆"
+        },
+        {
+            "name": "楷体"
+        },
+        {
+            "name": "隶书"
+        },
+        {
+            "name": "黑体"
+        }
+    ]
+}

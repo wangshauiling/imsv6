@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import './big_var.scss';
+$big:(    
+    font-size:$big-font-size,
+    font-size-14:$big-font-size-18,
+    font-size-20:$big-font-size-24,
+    font-size-26:$big-font-size-30,
+    font-size-28:$big-font-size-32,
+    font-title-size:$big-font-title-size,
+    font-icon-size:$big-ico-font-size,
+    treeview-search:$big-treeview-search,
+    tab-height:$big-tab-height,
+    content-height:$big-content-height,
+    main-content-height:$big-main-content-height,
+    dx-tab-margin-top:$big-dx-tab-margin-top,
+)

@@ -1,0 +1,70 @@
+{
+  "name": "ims-web",
+  "description": "ims custom web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "cross-env NODE_OPTIONS=--max-old-space-size=20480 vue-cli-service serve",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=20480 vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "ims-fa-core": "file:./lib/ims-fa-core-6.5.7.tgz",
+    "ims-fa-web": "file:./lib/ims-fa-web-6.5.7.tgz",
+    "ims-web": "file:./lib/ims-web-6.5.7.tgz",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "sass-resources-loader": "^2.2.5",
+    "thread-loader": "^4.0.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "no-debugger": "off",
+      "vue/no-mutating-props": 0,
+      "vue/multi-word-component-names": "off",
+      "no-useless-escape": "off"
+    },
+    "ignorePatterns": [
+      "iconfont.js",
+      "xrtc-player-BSQHcoyV.js",
+      "webrtc-player-D96FHdJO.js",
+      "index-hUidh-KJ.js",
+      "iat-recorder-manager.js",
+      "iat-recorder.js"
+    ]
+  },
+  "browserslist": [
+    "> 0.03%",
+    "last 2 versions",
+    "not dead",
+    "chrome 40.0",
+    "not ie 11"
+  ]
+}

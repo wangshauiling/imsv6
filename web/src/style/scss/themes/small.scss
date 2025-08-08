@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import './small_var.scss';
+$small:(    
+    font-size:$small-font-size,
+    font-size-14: $small-font-size-14,
+    font-size-20: $small-font-size-20,
+    font-size-26: $small-font-size-26,
+    font-size-28: $small-font-size-28,
+    font-icon-size:$small-ico-font-size,
+    font-title-size:$small-font-title-size,
+    treeview-search:$small-treeview-search,
+    tab-height:$small-tab-height,
+    content-height:$small-content-height,
+    main-content-height:$small-main-content-height,
+    dx-tab-margin-top:$small-dx-tab-margin-top
+)

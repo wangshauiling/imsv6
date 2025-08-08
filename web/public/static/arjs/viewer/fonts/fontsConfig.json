@@ -1,0 +1,29 @@
+{
+    "path": "./public",
+    "descriptors": [
+        {
+            "name": "Arial",
+            "source":"fonts/arial_unicode_ms.ttf"
+        },
+        {
+            "name": "宋体",
+            "source":"fonts/simsun.ttf"
+        },
+        {
+            "name": "幼圆",
+            "source":"fonts/SIMYOU.TTF"
+        },
+        {
+            "name": "楷体",
+            "source":"fonts/simkai.ttf"
+        },
+        {
+            "name": "隶书",
+            "source":"fonts/SIMLI.TTF"
+        },
+        {
+            "name": "黑体",
+            "source":"fonts/simhei.ttf"
+        }
+    ]
+}

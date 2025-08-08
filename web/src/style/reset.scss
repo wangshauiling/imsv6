@@ -1,0 +1,37 @@
+@charset "UTF-8";
+// 背景色
+$bg-color: #FAFAFA;
+// 基本文本颜色
+$text-color: #333;
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color:$text-color;
+    background-color: $bg-color;
+    font-family: Roboto , sans-serif !important;
+}
+.dx-header-filter-menu{z-index: 9999 !important;}
+table{border-collapse:collapse;border-spacing:0;font-size:inherit;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,th,var,i{font-style:normal;font-weight:normal;}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;outline: none!important;vertical-align:middle;}
+a {@include get_class("color", "theme-color");text-decoration: none;}
+a:link {  @include get_class("color", "theme-color");text-decoration: none; }
+a:visited {  @include get_class("color", "theme-color");text-decoration: none; }
+a:hover { @include get_class("color", "theme-color");text-decoration: none; }
+a:active { @include get_class("color", "theme-color");text-decoration: none; }
+.clear { clear: both; height: 0px; width: 100%; overflow: hidden; margin-top: -1px; float: none; }
+.clearfix{zoom:1;}
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.left { float: left }
+.right { float: right }
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+

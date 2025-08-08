@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import './orange_var.scss';
+$orange:(    
+    theme-color:$orange-theme-color,
+    theme-hcolor:$orange-theme-hcolor,
+    success-color:$orange-success-color,
+    success-bcolor:$orange-success-bcolor,
+    warning-color:$orange-warning-color,
+    warning-bcolor:$orange-warning-bcolor,
+    default-color:$orange-default-color,
+    default-bcolor:$orange-default-bcolor,
+    danger-color:$orange-danger-color,
+    danger-bcolor:$orange-danger-bcolor,
+    bar-color:$orange-bar-color,
+    treeviewbox-color:$orange-treeviewbox-color,
+    sideNav-bgcolor:$orange-sideNav-bgcolor,
+    search-editor-bgcolor:$orange-search-editor-bgcolor,
+    search-editor-color:$orange-search-editor-color,
+    treeview-hcolor:$orange-treeview-hcolor,
+    treeview-hbgcolor:$orange-treeview-hbgcolor,
+    mainBox-margin-left:$orange-mainBox-margin-left,
+    mainBox-width:$orange-mainBox-width,
+);
