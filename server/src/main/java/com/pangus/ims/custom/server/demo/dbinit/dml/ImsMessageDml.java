@@ -20,7 +20,6 @@ import com.pangus.ims.fa.web.util.BaseImsMessageDml;
 @DbMetaData
 public class ImsMessageDml extends BaseImsMessageDml {
     public ImsMessageDml() {
-        add("demo.msg.0001", "BS0001：%s 流水号达到最大上限：%s。");
-        add("demo.msg.0002", "全局策略");
+       
     }
 }
