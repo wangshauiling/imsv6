@@ -1,0 +1,70 @@
+<!--
+ * IMS-V6
+ *
+ * 版权所有 (c) 2024-2024 广东盘古信息科技股份有限公司
+ *
+ * 2024-04-16 创建 - 陈栋升
+ *
+-->
+<template>
+    <PgBaseTemplate
+        :url="url"
+        @init="initTemplate"></PgBaseTemplate>
+</template>
+<script>
+export default {
+    // 质量状态变更-按LPN
+    name: 'demo/demoPdaChangeQltyByLpn'
+}
+</script>
+<script setup>
+import { getCurrentInstance } from 'vue'
+const vm = getCurrentInstance()
+const appUtils = vm.appContext.config.globalProperties.$appUtils
+const imsFaPda = appUtils.imsFaPda
+const imsFaCore = imsFaPda.imsFaCore
+const ConditionGroup = imsFaCore.ConditionGroup
+const ColumnCondition = imsFaCore.ColumnCondition
+const Constant = imsFaCore.Constant
+
+/**
+ * 模板初始化事件
+ * @param {*} obj
+ */
+const initTemplate = function (obj) {
+    // 页面模板实例
+    const _this = obj.instance.exposed
+
+    //页面渲染前置事件
+    _this.interceptFn.beforeRenderPageEvent = function (pdaHtmlVo) {
+        //元素配置
+        const elementOptions = [
+            {
+                dataField: 'org_code',
+                contactDataField: [],
+                clearContactDataField: [],
+                selectParams: function () {
+                    return new ConditionGroup({
+                        conditions: [
+                            new ColumnCondition({ columnCode: 'is_valid', value: Constant.BooleanConstants.TRUE })
+                        ]
+                    })
+                },
+                // 设置参数
+                selfValidateParams: function ({ validateParams, value }) {
+                    validateParams.setObject('check_type', [
+                        Constant.ParamCheckType.EXISTS,
+                        Constant.ParamCheckType.IS_VALID
+                    ])
+                    validateParams.setString('model_code', 'ims_org')
+                    validateParams.setString('org_code', value)
+                }
+            }
+        ]
+        return elementOptions
+    }
+}
+
+/*********** 初始化数据 ********* */
+const url = 'demo/demoDevManage/pdaChangeQlty/saveByLpn'
+</script>

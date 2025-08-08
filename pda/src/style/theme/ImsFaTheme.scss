@@ -1,0 +1,60 @@
+/* 主题文件基础样式变量 */
+:root:root {
+    --pg-black: #000;
+    --pg-white: #fff;
+    --pg-gray-1: #f7f8fa;
+    --pg-gray-2: #f2f3f5;
+    --pg-gray-3: #f1f1f1;
+    --pg-gray-4: #dddddd;
+    --pg-gray-5: #cccccc;
+    --pg-gray-6: #999999;
+    --pg-gray-7: #666666;
+    --pg-gray-8: #252d3a;
+    --pg-gray-9: #333333;
+    --pg-red: #f74d61;
+    --pg-blue: #1b56aa;
+    --pg-blue-light-1: #e6f0ff;
+    --pg-blue-light-2: #dceaff;
+    --pg-orange: #ee7a19;
+    --pg-orange-dark: #e26600;
+    --pg-orange-light: #fffbe8;
+    --pg-orange-light-2: #fee9d3;
+    --pg-green: #5cb85c;
+    --pg-field-error-message-color: #ec3800;
+
+    /* Padding */
+    --pg-padding-base: 4px;
+    --pg-padding-xs: calc(var(--pg-padding-base) * 2);
+    --pg-padding-sm: calc(var(--pg-padding-base) * 3);
+    --pg-padding-md: calc(var(--pg-padding-base) * 4);
+    --pg-padding-lg: calc(var(--pg-padding-base) * 5);
+    --pg-padding-xl: calc(var(--pg-padding-base) * 6);
+
+    /* Margin */
+    --pg-margin-base: 4px;
+    --pg-margin-xs: calc(var(--pg-margin-base) * 2);
+    --pg-margin-sm: calc(var(--pg-margin-base) * 3);
+    --pg-margin-md: calc(var(--pg-margin-base) * 4);
+    --pg-margin-lg: calc(var(--pg-margin-base) * 5);
+    --pg-margin-xl: calc(var(--pg-margin-base) * 6);
+
+    /* Font */
+    --pg-font-size-xs: 10px;
+    --pg-font-size-sm: 12px;
+    --pg-font-size-md: 14px;
+    --pg-font-size-lg: 16px;
+
+    /* LineHeight */
+    --pg-line-height-xs: 14px;
+    --pg-line-height-sm: 18px;
+    --pg-line-height-md: 20px;
+    --pg-line-height-lg: 22px;
+
+    /* Border */
+    --pg-border-color: var(--pg-gray-3);
+    --pg-border-width-base: 1px;
+    --pg-border-radius-xs: 3px;
+    --pg-border-radius-sm: 4px;
+    --pg-border-radius-md: 8px;
+    --pg-border-radius-lg: 999px;
+}

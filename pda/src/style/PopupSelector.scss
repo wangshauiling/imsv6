@@ -1,0 +1,107 @@
+// 选组织单、多选下拉框样式
+.van-popup {
+    &.pg-popup-selector {
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
+        .van-search {
+            background-color: var(--pg-gray-3);
+            .van-search__content {
+                --van-search-left-icon-color: var(--van-gray-6);
+                --van-search-content-background-color: var(--pg-white);
+                background-color: var(--pg-white);
+                .van-field__control::-webkit-input-placeholder {
+                    color: var(--van-gray-6);
+                }
+            }
+            .van-search__action {
+                --van-search-action-text-color: var(--pg-black);
+                --van-search-action-padding: 0 var(--pg-padding-sm);
+            }
+        }
+
+        .pg-grid {
+            background-color: var(--pg-gray-3);
+            color: var(--pg-gray-7);
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            .pg-grid-box {
+                width: calc(100% - var(--pg-padding-sm) * 2);
+            }
+            .pg-table-box {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                background-color: var(--pg-white);
+                // margin: 0 auto calc(var(--pg-padding-sm));
+                .pg-grid-body {
+                    .pg-recycle-pool {
+                        padding-bottom: calc(var(--pg-padding-sm));
+                        box-sizing: border-box;
+                    }
+                }
+                .pg-table-row,
+                .pg-grid-head {
+                    border-left: none;
+                }
+                .pg-grid-head {
+                    color: var(--pg-gray-9);
+                    font-weight: 300;
+                    div {
+                        border-top: none;
+                        border-color: var(--pg-gray-4);
+                    }
+                    .pg-head-column-value {
+                        font-weight: 300;
+                        padding: 3px;
+                    }
+                }
+                .pg-table-row,
+                .pg-grid-head {
+                    div {
+                        border-color: var(--pg-gray-4);
+                    }
+                    div:last-child {
+                        border-right: none;
+                    }
+                }
+                .pg-grid-body {
+                    .pg-table-row {
+                        &.selected {
+                            &,
+                            .pg-body-column-edit {
+                                background-color: var(--pg-selected-background-color);
+                            }
+                        }
+                        .pg-body-column-value {
+                            padding: 3px;
+                        }
+                        div {
+                            border-color: var(--pg-gray-4);
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+            .pg-grid-navigator {
+                width: 100%;
+                background-color: var(--pg-white);
+                border-bottom: var(--pg-border-width-base) solid var(--pg-gray-4);
+                margin-top: 10px;
+                .pg-grid-total-page,
+                .van-badge__wrapper {
+                    padding: 0 var(--pg-padding-sm);
+                }
+            }
+        }
+        &.van-popup {
+            .pg-bottom-btn {
+                padding: {
+                    left: var(--pg-padding-sm);
+                    right: var(--pg-padding-sm);
+                }
+            }
+        }
+    }
+}

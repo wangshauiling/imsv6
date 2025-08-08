@@ -1,0 +1,21 @@
+/* PDA全局样式变量 */
+:root:root {
+    /* 边框颜色 */
+    --van-border-color: var(--pg-gray-4);
+
+    /* 折叠栏字体大小 */
+    --van-collapse-item-content-font-size: var(--pg-font-size-sm);
+
+    /* 菜单间距 */
+    --menus-box-gap: 10px;
+
+    /* 遮罩透明度 */
+    --van-overlay-background-color: rgba(0, 0, 0, 0.45);
+
+    /* 按钮圆角数 */
+    --van-button-border-radius: var(--pg-border-radius-xs);
+
+    --van-popup-position-top: 48%;
+
+    --van-tabbar-z-index: 999;
+}

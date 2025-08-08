@@ -1,0 +1,21 @@
+.pg-base-template {
+    .pg-content {
+        display: flex;
+        flex-direction: column;
+        .pg-content-inner {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            .van-tabs--line {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                &.van-tabs {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
